@@ -51,7 +51,7 @@ The conflict resolver implementation should be an extension of "com.gigaspaces.c
   </os-gateway:sources>
 
   <!-- Sink error handling configuration -->
-  <os-gateway:error-handling conflict-resolver="conflictResolver" max-retries-on-tx-lock="5"
+  <os-gateway:error-handling conflict-resolver="conflictResolver" max-retries-on-tx-lock="20"
      tx-lock-retry-interval="100" />
 
 </os-gateway:sink>
