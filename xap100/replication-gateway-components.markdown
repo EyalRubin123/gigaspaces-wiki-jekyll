@@ -114,7 +114,7 @@ In some scenarios, for example when there are many sites, it is more reasonable 
 In this case, the `start-embedded-lus="false"` should be used and the `host` and `discovery-port` of the lookup attributes should point to the existing lookup services location. For example:
 
 {% highlight xml %}
-<os-gateway:lookups id="gatewayLookups">
+<os-gateway:lookups id="gatewayLookups" start-embedded-lus="false">
   <os-gateway:lookup gateway-name="NEWYORK" host="lookup1-host-machine"
     discovery-port="10001" communication-port=... />
   <os-gateway:lookup gateway-name="LONDON" host="lookup2-host-machine"
