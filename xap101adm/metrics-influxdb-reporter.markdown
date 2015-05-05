@@ -20,7 +20,7 @@ InfluxDB provides an [HTTP API](http://influxdb.com/docs/v0.8/api/reading_and_wr
 <metrics-configuration>
     <reporters>
         <reporter name="influxdb-http">
-            <property name="host" value="myhost"/>
+            <property name="host" value="http://myhost:8086"/>
             <property name="database" value="mydb"/>
             <property name="username" value="root"/>
             <property name="password" value="root"/>
